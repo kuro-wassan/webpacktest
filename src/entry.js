@@ -1,11 +1,9 @@
 import './style.scss';
-import Vue from 'vue';
 import App from './main.vue';
+import Vue from 'vue';
 
 new Vue({
-  el: "#app",
-  components: { App },
-  data: {
-    msg: '</app>'
-  }
+  el: '#app',
+  template: '<App/>',
+  components: { App }
 })
